@@ -49,7 +49,7 @@ export default function RecipeReviewCard() {
   const [item, setItem] = React.useState<boolean>(true);
 
   return (
-    <div style={{ width: "95%", margin: "5% auto" }}>
+    <div style={{ width: "75%", margin: "5% auto" }}>
       <Container fixed>
         <Grid container spacing={3}>
           <Grid item xs={12} md={4}>

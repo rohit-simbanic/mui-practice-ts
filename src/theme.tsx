@@ -1,6 +1,18 @@
 import { createTheme } from "@mui/material/styles";
+import { green } from "@mui/material/colors";
 
 const theme = createTheme({
+  typography: {
+    fontFamily: ["Oswald", "sans-serif"].join(","),
+  },
+  palette: {
+    primary: {
+      main: "#F4F5FA",
+    },
+    secondary: {
+      main: green[500],
+    },
+  },
   components: {
     // Name of the component
     MuiCard: {
